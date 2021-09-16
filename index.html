@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <title> Index </title>
+
+</head>
+<body>
+
+  <header class="flex-center">
+
+    <form id="searchForm" class="flex-center">
+
+    <input type="text" placeholder="Procure por uma cidade:" name="city" required />
+
+    <button type="submit" value="Pesquisar">
+      <img src="./images/search.svg" alt="">
+    </button>
+      
+    </form>
+
+    <div class="clock">
+      <span id="clock"></span>
+      <img src="./images/clock.svg" alt="Check the clock">
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="hero" class="weather-display">
+
+      <h1 id="city-name"></h2>
+
+      <h4 id="weather"></h4>
+
+      <div class="weather-icon">
+        <img id="weather-icon" src="./images/nothing.png" alt="Weather icon">
+      </div>
+
+      <div class="weather-info">
+
+        <div>
+          <img src="./images/thermometer.svg" alt="Temperature">
+          <p id="temp"></p>
+        </div>
+
+        <div>
+          <img src="./images/thermometer.svg" alt="Temperature">
+          <p id="feels-like"></p>
+        </div>
+
+        <div>
+          <img src="./images/high-temp.svg" alt="Temperature">
+          <p id="max-temp"></p>
+        </div>
+
+        <div>
+          <img src="./images/low-temp.svg" alt="Temperature">
+          <p id="min-temp"></p>
+        </div>
+
+        <div>
+          <img src="./images/humidity.svg" alt="Temperature">
+          <p id="humidity"></p>
+        </div>
+
+        <div>
+          <img src="./images/" alt="Temperature">
+          <p id="wind-speed"></p>
+        </div>
+
+        <div>
+          <img src="./images/" alt="Temperature">
+          <p id="wind-direction"></p>
+        </div>
+
+        <div>
+          <img src="./images/" alt="Temperature">
+          <p id="visibility"></p>
+        </div>
+
+        <div>
+          <img src="./images/" alt="Temperature">
+          <p id="sunset"></p>
+        </div>
+
+        <div>
+          <img src="./images/" alt="Temperature">
+          <p id="sunrise"></p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="icons">
+
+    </div>
+
+  </footer>
+
+  <script src="./scripts.js"></script>
+  <script src="./clock.js"></script>
+  
+</body>
+</html>
