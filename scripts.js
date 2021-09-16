@@ -8,6 +8,9 @@ const mainCard = {
   minTemp: document.querySelector("#min-temp"),
   maxTemp: document.querySelector("#max-temp"),
   humidity: document.querySelector("#humidity"),
+  windSpeed: document.querySelector("#wind-speed"),
+  windDirection: document.querySelector("#wind-direction"),
+  visibility: document.querySelector("#visibility"),
 };
 
 async function initializeWithGeolocation() {
@@ -45,6 +48,9 @@ function buildWeatherCard(card, data) {
   card.minTemp.innerText = `Mínima: ${Math.round(data.main.temp_min)}C°`;
   card.maxTemp.innerText = `Máxima: ${Math.round(data.main.temp_max)}C°`;
   card.humidity.innerText = `Humidade: ${data.main.humidity}%`;
+  card.windSpeed.innerText = `Velocidade do Vento: ${data.wind.speed}Km/h`;
+  card.windDirection.innerText = `Direção do Vento: ${data.wind.deg}°`;
+  card.visibility.innerText = `Visibilidade: ${data.visibility}m`;
 }
 
 searcher.addEventListener("submit", (event) => {
