@@ -14,4 +14,4 @@ the browser for accessing the location, the main card will start displaying noth
 #### This is how it looks like
 <img alt="screenschot - main card" src="https://user-images.githubusercontent.com/74681686/134199944-1c67636e-ee16-439d-bdb1-faf4ec3b8265.png" height="512px"/>
 
-I am going to improve and add features to this project
+This project is not finished yet. I am going to improve the UI and add/improve features.
