@@ -11,4 +11,5 @@ I am building it using the OpenWeatherAPI, JS, HTML and CSS.
 the browser for accessing the location, the main card will start displaying nothing but icons.
 * The user can also use the search-bar to get somewheres weather.
 
-![screenshot-01](./1.png)
+#### That is how it looks like
+<img alt="screenschot - main card" src="./1.png" height="512px"/>
