@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p, span {
+  cursor: default;
+}
+
 button {
   cursor: pointer;
 
@@ -172,8 +176,13 @@ main {
 
 .weather-info {
   height: 15.75rem;
+  width: 90%;
+
+  padding: 1rem 0;
 
   overflow-y: scroll;
+
+  border-bottom: 1px solid #d8d8d8;
 }
 
 .weather-info::-webkit-scrollbar {
