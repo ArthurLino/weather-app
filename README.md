@@ -12,4 +12,4 @@ the browser for accessing the location, the main card will start displaying noth
 * The user can also use the search-bar to get somewheres weather.
 
 #### This is how it looks like
-<img alt="screenschot - main card" src="./1.png" height="512px"/>
+<img alt="screenschot - main card" src="https://user-images.githubusercontent.com/74681686/134199944-1c67636e-ee16-439d-bdb1-faf4ec3b8265.png" height="512px"/>
