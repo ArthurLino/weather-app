@@ -1,7 +1,7 @@
 # Weather-App
 
 ```javascript
-console.log("Hello, world! Here's a simple weather app beeing made for studying js basics.")
+console.log("Hello, world! Here's a simple weather app being made for studying js basics.")
 ```
 
 I am building it using the OpenWeatherAPI, JS, HTML and CSS.
